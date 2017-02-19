@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 2000px;
+  background: lightblue;
+}
+
+.container {
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding: 1em;
+}
+
+.dark {
+  background: #333;
+}
+
+.light {
+  background: lightgreen;
+}
+
+.default {
+  position: fixed;
+  
+  left:50%;
+  transform:translateX(-50%);
+  
+  
+ 
+}
+
+.moveable {
+  position: absolute;
+left:50%;
+  transform:translateX(-50%);
+}
+
+.bg-yellow {
+  background: yellow;
+}
+
+.bg-pink {
+  background: #DF28DE;
+}
